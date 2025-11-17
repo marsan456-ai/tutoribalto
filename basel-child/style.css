@@ -1,0 +1,250 @@
+/*
+
+ Theme Name:   Basel Child
+
+ Description:  Basel Child Theme
+
+ Author:       XTemos
+
+ Author URI:   http://xtemos.com
+
+ Template:     basel
+
+ Version:      1.0.0
+
+ Text Domain:  basel-child
+
+*/
+
+
+
+
+
+/* Your customizations starts here */
+
+.basel-registration-page p#billing_phone_field {
+    width: 100%;
+}
+.optional {display: none;}
+rs-layer#slider-41-slide-386-layer-9 {
+    opacity: 0 !important;
+}
+rs-layer#slider-41-slide-386-layer-9:hover {
+    opacity: 1 !important;
+}
+rs-layer#slider-42-slide-391-layer-9 {
+    opacity: 0 !important;
+}
+rs-layer#slider-42-slide-391-layer-9:hover {
+    opacity: 1 !important;
+}
+rs-layer#slider-44-slide-401-layer-9 {
+    opacity: 0 !important;
+}
+rs-layer#slider-44-slide-401-layer-9:hover {
+    opacity: 1 !important;
+}
+rs-layer#slider-43-slide-396-layer-9 {
+    opacity: 0 !important;
+}
+rs-layer#slider-43-slide-396-layer-9:hover {
+    opacity: 1 !important;
+}
+rs-layer#slider-45-slide-406-layer-9 {
+    opacity: 0 !important;
+}
+rs-layer#slider-45-slide-406-layer-9:hover {
+    opacity: 1 !important;
+}
+rs-layer#slider-41-slide-386-layer-10 {
+    opacity: 0 !important;
+}
+rs-layer#slider-41-slide-386-layer-10:hover {
+    opacity: 1 !important;
+}
+rs-layer#slider-42-slide-391-layer-10 {
+    opacity: 0 !important;
+}
+rs-layer#slider-42-slide-391-layer-10:hover {
+    opacity: 1 !important;
+}
+rs-layer#slider-44-slide-401-layer-10 {
+    opacity: 0 !important;
+}
+rs-layer#slider-44-slide-401-layer-10:hover {
+    opacity: 1 !important;
+}
+rs-layer#slider-43-slide-396-layer-10 {
+    opacity: 0 !important;
+}
+rs-layer#slider-43-slide-396-layer-10:hover {
+    opacity: 1 !important;
+}
+rs-layer#slider-45-slide-406-layer-10 {
+    opacity: 0 !important;
+}
+rs-layer#slider-45-slide-406-layer-10:hover {
+    opacity: 1 !important;
+}
+rs-layer#slider-41-slide-386-layer-11 {
+    opacity: 0 !important;
+}
+rs-layer#slider-41-slide-386-layer-11:hover {
+    opacity: 1 !important;
+}
+rs-layer#slider-42-slide-391-layer-11 {
+    opacity: 0 !important;
+}
+rs-layer#slider-42-slide-391-layer-11:hover {
+    opacity: 1 !important;
+}
+rs-layer#slider-44-slide-401-layer-11 {
+    opacity: 0 !important;
+}
+rs-layer#slider-44-slide-401-layer-11:hover {
+    opacity: 1 !important;
+}
+rs-layer#slider-43-slide-396-layer-11 {
+    opacity: 0 !important;
+}
+rs-layer#slider-43-slide-396-layer-11:hover {
+    opacity: 1 !important;
+}
+rs-layer#slider-45-slide-406-layer-11 {
+    opacity: 0 !important;
+}
+rs-layer#slider-45-slide-406-layer-11:hover {
+    opacity: 1 !important;
+}
+rs-layer#slider-41-slide-386-layer-12 {
+    opacity: 0 !important;
+}
+rs-layer#slider-41-slide-386-layer-12:hover {
+    opacity: 1 !important;
+}
+rs-layer#slider-42-slide-391-layer-12 {
+    opacity: 0 !important;
+}
+rs-layer#slider-42-slide-391-layer-12:hover {
+    opacity: 1 !important;
+}
+rs-layer#slider-44-slide-401-layer-12 {
+    opacity: 0 !important;
+}
+rs-layer#slider-44-slide-401-layer-12:hover {
+    opacity: 1 !important;
+}
+rs-layer#slider-43-slide-396-layer-12 {
+    opacity: 0 !important;
+}
+rs-layer#slider-43-slide-396-layer-12:hover {
+    opacity: 1 !important;
+}
+rs-layer#slider-45-slide-406-layer-12 {
+    opacity: 0 !important;
+}
+rs-layer#slider-45-slide-406-layer-12:hover {
+    opacity: 1 !important;
+}
+rs-layer#slider-41-slide-386-layer-13 {
+    opacity: 0 !important;
+}
+rs-layer#slider-41-slide-386-layer-13:hover {
+    opacity: 1 !important;
+}
+rs-layer#slider-42-slide-391-layer-13 {
+    opacity: 0 !important;
+}
+rs-layer#slider-42-slide-391-layer-13:hover {
+    opacity: 1 !important;
+}
+rs-layer#slider-44-slide-401-layer-13 {
+    opacity: 0 !important;
+}
+rs-layer#slider-44-slide-401-layer-13:hover {
+    opacity: 1 !important;
+}
+rs-layer#slider-43-slide-396-layer-13 {
+    opacity: 0 !important;
+}
+rs-layer#slider-43-slide-396-layer-13:hover {
+    opacity: 1 !important;
+}
+rs-layer#slider-45-slide-406-layer-13 {
+    opacity: 0 !important;
+}
+rs-layer#slider-45-slide-406-layer-13:hover {
+    opacity: 1 !important;
+}
+rs-layer#slider-41-slide-386-layer-18 {
+    opacity: 0 !important;
+}
+rs-layer#slider-41-slide-386-layer-20 {
+    opacity: 0 !important;
+}
+rs-layer#slider-41-slide-386-layer-19 {
+    opacity: 0 !important;
+}
+rs-layer#slider-41-slide-386-layer-10 {
+    opacity: 0 !important;
+}
+rs-layer#slider-42-slide-391-layer-18 {
+    opacity: 0 !important;
+}
+rs-layer#slider-42-slide-391-layer-20 {
+    opacity: 0 !important;
+}
+rs-layer#slider-42-slide-391-layer-19 {
+    opacity: 0 !important;
+}
+rs-layer#slider-42-slide-391-layer-10 {
+    opacity: 0 !important;
+}
+rs-layer#slider-44-slide-401-layer-18 {
+    opacity: 0 !important;
+}
+rs-layer#slider-44-slide-401-layer-20 {
+    opacity: 0 !important;
+}
+rs-layer#slider-44-slide-401-layer-19 {
+    opacity: 0 !important;
+}
+rs-layer#slider-44-slide-401-layer-10 {
+    opacity: 0 !important;
+}
+rs-layer#slider-43-slide-396-layer-18 {
+    opacity: 0 !important;
+}
+rs-layer#slider-43-slide-396-layer-20 {
+    opacity: 0 !important;
+}
+rs-layer#slider-43-slide-396-layer-19 {
+    opacity: 0 !important;
+}
+rs-layer#slider-43-slide-396-layer-10 {
+    opacity: 0 !important;
+}
+rs-layer#slider-45-slide-406-layer-18 {
+    opacity: 0 !important;
+}
+rs-layer#slider-45-slide-406-layer-20 {
+    opacity: 0 !important;
+}
+rs-layer#slider-45-slide-406-layer-19 {
+    opacity: 0 !important;
+}
+rs-layer#slider-45-slide-406-layer-10 {
+    opacity: 0 !important;
+}
+rs-layer#slider-41-slide-386-layer-18 {
+    opacity: 0 !important;
+}
+rs-layer#slider-41-slide-386-layer-20 {
+    opacity: 0 !important;
+}
+rs-layer#slider-41-slide-386-layer-19 {
+    opacity: 0 !important;
+}
+rs-layer#slider-41-slide-386-layer-10 {
+    opacity: 0 !important;
+}
