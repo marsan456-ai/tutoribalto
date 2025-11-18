@@ -117,6 +117,9 @@ function tutoribalto_theme_init(): void {
 	if ( defined( 'ICL_LANGUAGE_CODE' ) ) {
 		new Tutoribalto_WPML_Integration();
 	}
+
+	// Gutenberg blocks.
+	new Tutoribalto_Block_Loader();
 }
 add_action( 'after_setup_theme', 'tutoribalto_theme_init' );
 

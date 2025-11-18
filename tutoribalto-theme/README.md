@@ -29,6 +29,7 @@ Tutoribalto Development Team
 - 🌍 **Geo-Restrictions** - Block checkout for specific countries, redirect to dealers
 - 📋 **Custom Checkout Validation** - Italian fiscal code, VAT number validation
 - 🎁 **Upsell Popup** - Cleaning kit promotion after add-to-cart
+- 🧱 **Custom Gutenberg Blocks** - Product Filter, USP Section, Product Grid
 
 ### Multilingual
 - 🌐 **5 Languages** - IT, EN, DE, FR, ES via WPML
@@ -66,8 +67,12 @@ tutoribalto-theme/
 │   │   ├── class-wc-geo-restrictions.php
 │   │   └── class-wc-product-display.php
 │   │
-│   └── multilingual/
-│       └── class-wpml-integration.php
+│   ├── multilingual/
+│   │   └── class-wpml-integration.php
+│   │
+│   └── blocks/
+│       ├── class-block-loader.php
+│       └── README.md
 │
 ├── templates/
 │   ├── header.php
@@ -173,6 +178,7 @@ private function get_excluded_product_ids( string $lang ): array {
 | `Tutoribalto_WC_Geo_Restrictions` | Country-based checkout blocking |
 | `Tutoribalto_WC_Product_Display` | Loop customizations, filters |
 | `Tutoribalto_WPML_Integration` | Multilingual support |
+| `Tutoribalto_Block_Loader` | Custom Gutenberg blocks |
 
 ## 🎨 Customization
 

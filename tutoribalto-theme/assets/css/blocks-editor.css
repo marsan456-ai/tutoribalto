@@ -1,0 +1,179 @@
+/**
+ * Gutenberg Block Editor Styles
+ *
+ * @package Tutoribalto_Theme
+ */
+
+/* ==========================================================================
+   Product Filter Block
+   ========================================================================== */
+
+.tutoribalto-product-filter {
+	margin: 40px 0;
+}
+
+.products-tabs-title {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	gap: 10px;
+	border-bottom: 2px solid var(--color-primary, #04AAD7);
+	flex-wrap: wrap;
+}
+
+.products-tabs-title li {
+	padding: 12px 24px;
+	cursor: pointer;
+	background: #f5f5f5;
+	border-radius: 4px 4px 0 0;
+	transition: all 0.3s ease;
+	font-weight: 500;
+}
+
+.products-tabs-title li:hover,
+.products-tabs-title li.active {
+	background: var(--color-primary, #04AAD7);
+	color: white;
+}
+
+.products-tab-pane {
+	display: none;
+	padding: 30px 0;
+}
+
+.products-tab-pane.active {
+	display: block;
+}
+
+.product-filter-dropdown {
+	width: 100%;
+	padding: 12px;
+	font-size: 16px;
+	border: 2px solid var(--color-primary, #04AAD7);
+	border-radius: 4px;
+	margin-bottom: 20px;
+}
+
+/* ==========================================================================
+   USP Section Block
+   ========================================================================== */
+
+.tutoribalto-usp-section {
+	background: linear-gradient(135deg, #04AAD7 0%, #0388b6 100%);
+	padding: 60px 20px;
+	margin: 40px 0;
+}
+
+.usp-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 40px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.usp-item {
+	text-align: center;
+	color: white;
+}
+
+.usp-icon {
+	margin-bottom: 20px;
+}
+
+.usp-icon svg {
+	width: 64px;
+	height: 64px;
+	color: white;
+}
+
+.usp-title {
+	font-size: 20px;
+	font-weight: 700;
+	margin: 15px 0 10px;
+	color: white;
+}
+
+.usp-text {
+	font-size: 14px;
+	opacity: 0.9;
+	margin: 0;
+}
+
+/* ==========================================================================
+   Product Grid Block
+   ========================================================================== */
+
+.tutoribalto-product-grid {
+	margin: 40px 0;
+}
+
+.tutoribalto-product-grid .grid-title {
+	font-size: 28px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 30px;
+	color: var(--color-secondary, #312D5A);
+}
+
+/* ==========================================================================
+   Editor Specific Styles
+   ========================================================================== */
+
+.block-editor-block-list__layout .tutoribalto-product-filter,
+.block-editor-block-list__layout .tutoribalto-usp-section,
+.block-editor-block-list__layout .tutoribalto-product-grid {
+	border: 2px dashed #04AAD7;
+	padding: 20px;
+	position: relative;
+}
+
+.block-editor-block-list__layout .tutoribalto-product-filter::before,
+.block-editor-block-list__layout .tutoribalto-usp-section::before,
+.block-editor-block-list__layout .tutoribalto-product-grid::before {
+	content: 'Tutoribalto Block - Preview Mode';
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	background: #04AAD7;
+	color: white;
+	padding: 4px 8px;
+	font-size: 11px;
+	border-radius: 3px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+
+@media (max-width: 768px) {
+	.products-tabs-title {
+		flex-direction: column;
+	}
+
+	.products-tabs-title li {
+		border-radius: 4px;
+	}
+
+	.usp-container {
+		grid-template-columns: 1fr;
+		gap: 30px;
+	}
+
+	.usp-icon svg {
+		width: 48px;
+		height: 48px;
+	}
+
+	.usp-title {
+		font-size: 18px;
+	}
+
+	.tutoribalto-product-grid .grid-title {
+		font-size: 22px;
+	}
+}
