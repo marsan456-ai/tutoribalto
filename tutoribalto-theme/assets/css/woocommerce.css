@@ -1,0 +1,242 @@
+/**
+ * WooCommerce Stylesheet
+ *
+ * @package Tutoribalto_Theme
+ */
+
+/* ==========================================================================
+   Product Loop
+   ========================================================================== */
+
+.products {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	gap: 30px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.product {
+	text-align: center;
+	border: 1px solid var(--color-border);
+	padding: 20px;
+	transition: var(--transition);
+}
+
+.product:hover {
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+	max-width: 100%;
+	height: auto;
+}
+
+.sottotitoloop {
+	font-size: 14px;
+	color: #666;
+	margin: 10px 0;
+}
+
+.addtocartbutton {
+	margin-top: 15px;
+}
+
+/* Price Display */
+.price {
+	font-size: 18px;
+	font-weight: bold;
+	color: var(--color-primary);
+	margin: 15px 0;
+}
+
+.price del {
+	color: #999;
+	font-weight: normal;
+	margin-right: 10px;
+}
+
+.price ins {
+	text-decoration: none;
+}
+
+.price .from {
+	font-size: 14px;
+	font-weight: normal;
+	color: #666;
+}
+
+/* Wholesale Pricing */
+.woo_retail,
+.woo_wholesale {
+	margin: 10px 0;
+}
+
+.woo_retail_label,
+.woo_wholesale_label {
+	font-weight: 600;
+	margin-right: 5px;
+}
+
+.woo_wholesale_price {
+	color: var(--color-primary);
+	font-weight: bold;
+}
+
+/* ==========================================================================
+   Single Product
+   ========================================================================== */
+
+.single-product .summary {
+	max-width: 600px;
+}
+
+.single-product .price {
+	font-size: 24px;
+	margin: 20px 0;
+}
+
+.variations select {
+	max-width: 200px;
+}
+
+.chart_sz {
+	margin-top: 30px;
+	padding: 20px;
+	background: #f9f9f9;
+	border: 1px solid var(--color-border);
+}
+
+/* ==========================================================================
+   Checkout
+   ========================================================================== */
+
+.woocommerce-checkout {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 40px;
+}
+
+.checkout-order-review {
+	background: #f9f9f9;
+	padding: 30px;
+	border: 1px solid var(--color-border);
+	position: sticky;
+	top: 120px;
+}
+
+.form-row {
+	margin-bottom: 20px;
+}
+
+.form-row-wide {
+	width: 100%;
+}
+
+.form-row-first,
+.form-row-last {
+	width: 48%;
+	display: inline-block;
+}
+
+.form-row-first {
+	margin-right: 4%;
+}
+
+#billing_client_type_field {
+	margin-bottom: 30px;
+}
+
+#billing_client_type_field label {
+	display: inline-block;
+	margin: 0 15px 0 5px;
+}
+
+/* ==========================================================================
+   Cart
+   ========================================================================== */
+
+.cart-collaterals {
+	margin-top: 40px;
+}
+
+.cart_totals {
+	max-width: 500px;
+	margin-left: auto;
+}
+
+/* ==========================================================================
+   My Account
+   ========================================================================== */
+
+.woocommerce-account .woocommerce-MyAccount-navigation {
+	width: 25%;
+	float: left;
+}
+
+.woocommerce-account .woocommerce-MyAccount-content {
+	width: 70%;
+	float: right;
+}
+
+/* ==========================================================================
+   Messages
+   ========================================================================== */
+
+.woocommerce-message,
+.woocommerce-info,
+.woocommerce-error {
+	padding: 15px;
+	margin-bottom: 20px;
+	border-left: 4px solid;
+}
+
+.woocommerce-message {
+	background: #e8f5e9;
+	border-color: #4caf50;
+	color: #2e7d32;
+}
+
+.woocommerce-error {
+	background: #ffebee;
+	border-color: #f44336;
+	color: #c62828;
+}
+
+.woocommerce-info {
+	background: #e3f2fd;
+	border-color: #2196f3;
+	color: #1565c0;
+}
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+
+@media (max-width: 768px) {
+	.products {
+		grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+		gap: 15px;
+	}
+
+	.woocommerce-checkout {
+		grid-template-columns: 1fr;
+	}
+
+	.checkout-order-review {
+		position: static;
+	}
+
+	.form-row-first,
+	.form-row-last {
+		width: 100%;
+		margin: 0 0 20px 0;
+	}
+
+	.woocommerce-account .woocommerce-MyAccount-navigation,
+	.woocommerce-account .woocommerce-MyAccount-content {
+		width: 100%;
+		float: none;
+	}
+}

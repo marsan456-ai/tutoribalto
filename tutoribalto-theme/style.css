@@ -1,0 +1,24 @@
+/*
+Theme Name:   Tutoribalto Theme
+Theme URI:    https://www.tutoribalto.com
+Description:  Custom WordPress theme for Tutoribalto - Tutori ortopedici per cani. Optimized for WooCommerce B2C/B2B e-commerce with multilingual support (WPML).
+Author:       Tutoribalto Development Team
+Author URI:   https://www.tutoribalto.com
+Version:      1.0.0
+Requires at least: 6.0
+Tested up to: 6.4
+Requires PHP: 8.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  tutoribalto-theme
+Domain Path:  /languages
+Tags:         e-commerce, woocommerce, multilingual, custom, responsive
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+*/
+
+/**
+ * NOTE: Gli stili principali sono caricati via assets/css/main.css
+ * Questo file contiene solo l'header del tema richiesto da WordPress
+ */
